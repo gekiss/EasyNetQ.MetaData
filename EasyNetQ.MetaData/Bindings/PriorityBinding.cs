@@ -10,7 +10,6 @@
             var priority = Convert.ToByte(propertyValue);
 
             if (priority != default(Byte)) {
-                destination.PriorityPresent = true;
                 destination.Priority = priority;
             }
         }

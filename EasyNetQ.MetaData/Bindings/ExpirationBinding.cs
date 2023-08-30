@@ -10,7 +10,6 @@
             var timespan = (TimeSpan)Convert.ChangeType(propertyValue, typeof(TimeSpan));
 
             if (timespan != default(TimeSpan)) {
-                destination.ExpirationPresent = true;
                 destination.Expiration = ((long)timespan.TotalMilliseconds).ToString();
             }
         }

@@ -15,8 +15,7 @@
     <PackageProjectUrl>https://github.com/Matthew-Davey/EasyNetQ.MetaData</PackageProjectUrl>
     <PackageLicenseUrl>https://github.com/Matthew-Davey/EasyNetQ.MetaData/blob/develop/LICENSE</PackageLicenseUrl>
     <PackageReleaseNotes>
-      * Upgrade project to netstandard2.0
-      * Upgrade to EasyNetQ 3.1.0
+      * Upgrade to EasyNetQ 6.5.2
     </PackageReleaseNotes>
   </PropertyGroup>
 
@@ -29,7 +28,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="EasyNetQ" Version="3.4.0" />
+    <PackageReference Include="EasyNetQ" Version="6.5.2" />
   </ItemGroup>
 
   <ItemGroup>

@@ -14,7 +14,7 @@
 
             Console.CancelKeyPress += (sender, EventArgs) => bus.Dispose();
 
-            bus.Subscribe<ExampleEvent>(String.Empty, message => {
+            bus.PubSub.Subscribe<ExampleEvent>(String.Empty, message => {
                 Console.WriteLine($"Custom Header Value: \"{message.CustomHeaderValue}\"");
                 Console.WriteLine($"Content Type:        \"{message.ContentType}\"");
                 Console.WriteLine($"Content Encoding:    \"{message.ContentEncoding}\"");

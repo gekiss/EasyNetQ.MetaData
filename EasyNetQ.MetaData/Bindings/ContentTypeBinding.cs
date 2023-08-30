@@ -12,7 +12,6 @@
             if (propertyValue != null) {
                 var contentType = typeConverter.ConvertToInvariantString(propertyValue);
 
-                destination.ContentTypePresent = true;
                 destination.ContentType = contentType;
             }
         }

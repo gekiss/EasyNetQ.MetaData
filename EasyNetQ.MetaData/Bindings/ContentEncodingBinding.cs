@@ -12,7 +12,6 @@
             if (propertyValue != null) {
                 var contentEncoding = typeConverter.ConvertToInvariantString(propertyValue);
 
-                destination.ContentEncodingPresent = true;
                 destination.ContentEncoding = contentEncoding;
             }
         }

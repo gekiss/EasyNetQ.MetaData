@@ -13,7 +13,6 @@
             if (propertyValue != null) {
                 var messageId = typeConverter.ConvertToInvariantString(propertyValue);
 
-                destination.MessageIdPresent = true;
                 destination.MessageId = messageId;
             }
         }

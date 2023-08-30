@@ -10,7 +10,6 @@
             var timestamp = (DateTime)Convert.ChangeType(propertyValue, typeof(DateTime));
 
             if (timestamp != default(DateTime)) {
-                destination.TimestampPresent = true;
                 destination.Timestamp = timestamp.ToUnixTimestamp();
             }
         }

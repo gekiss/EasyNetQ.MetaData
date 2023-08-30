@@ -13,7 +13,6 @@
             if (propertyValue != null) {
                 var correlationId = typeConverter.ConvertToInvariantString(propertyValue);
 
-                destination.CorrelationIdPresent = true;
                 destination.CorrelationId = correlationId;
             }
         }

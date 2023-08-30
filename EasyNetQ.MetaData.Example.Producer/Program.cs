@@ -24,7 +24,7 @@
             };
 
             while (!cancellationTokenSource.IsCancellationRequested) {
-                bus.Publish(new ExampleEvent {
+                bus.PubSub.Publish(new ExampleEvent {
                     MessageContent    = "Message Content",
                     CustomHeaderValue = "My Header Value",
                     ContentType       = "application/json",

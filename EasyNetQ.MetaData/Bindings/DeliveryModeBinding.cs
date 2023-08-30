@@ -15,7 +15,6 @@
             if (deliveryMode == default(Byte))
                 deliveryMode = DefaultDeliveryMode;
 
-            destination.DeliveryModePresent = true;
             destination.DeliveryMode = deliveryMode;
         }
 

@@ -13,7 +13,6 @@
             if (propertyValue != null) {
                 var replyTo = typeConverter.ConvertToInvariantString(propertyValue);
 
-                destination.ReplyToPresent = true;
                 destination.ReplyTo = replyTo;
             }
         }
